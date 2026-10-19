@@ -1,0 +1,100 @@
+body {
+    /* font-family applies to everything inside body */
+    /* MS PGothic will probably fail on any device that isn't a windows device */
+    font-family: "MS PGothic", "Sawarabi Gothic", sans-serif;
+    background-image: url(../images/waffles/bg_image.jpg);
+    background-color: #D4FBFF;
+    background-repeat: repeat-y;
+}
+
+h1, h2, h3 {
+    text-shadow: 1px 1px 0 #bae3e7;
+    font-style: italic;
+}
+
+img {
+    border: 3px solid rgb(154, 154, 154);;
+}
+
+figcaption {
+    color: rgb(22, 22, 22);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+fieldset {
+    width: 300px;
+    text-align: center;
+}
+
+hr {
+    border-width: 2px;
+}
+
+/* classes */
+.conv {
+    display: flex;
+    width: 370px;
+    height: 45px;
+    background-color: #bae3e7;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(154, 154, 154);
+}
+
+.rate {
+    background-color: #bae3e7;
+    border: 2px solid rgb(154, 154, 154);
+}
+
+.rate-legend {
+    background-color: #bae3e7;
+    border-radius: 1px;
+    border-style: inset;
+}
+
+.link-main {
+    display: block;
+    image-rendering: pixelated;
+    background-image: url(../images/waffles/backoff.png);
+    background-repeat: no-repeat;
+    background-size: 23px 24px;
+    height: 24px;
+    width: 175px;
+    font-size: 16px;
+    text-indent: 17px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px #0F49A8;
+    color:#fff;
+}
+
+.link-main:hover {
+    background-image: url(../images/waffles/backon.png);
+    background-repeat: no-repeat;
+    background-size: 23px 24px;
+    height: 24px;
+    width: 175px;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px #0078FF;
+}
+
+.disclaimer {
+    color: rgb(22, 22, 22);
+    font-size: 12px;
+    font-style: italic;
+    justify-self: right;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper div {
+    flex: 1;
+}
+
+.box2 {
+    align-content: center;
+}
